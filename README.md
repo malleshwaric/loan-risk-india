@@ -1,5 +1,14 @@
 # Bank Loan & Credit Risk Analytics — India
 
+## 🚀 Live Interactive Dashboard
+
+**[View Dashboard →](https://malleshwaric.github.io/loan-risk-india/dashboard.html)**
+
+Fully interactive — charts, tabs, KPI cards. No login required, opens in any browser.
+
+---
+
+
 > End-to-end data analytics project simulating a retail bank's loan portfolio across India.
 > Built to demonstrate SQL data modeling, Python data generation, and Power BI/DAX reporting skills.
 
