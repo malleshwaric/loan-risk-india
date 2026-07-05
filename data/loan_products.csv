@@ -1,0 +1,7 @@
+product_id,product_name,interest_type,min_interest_rate,max_interest_rate,min_tenure_months,max_tenure_months,processing_fee_pct
+1,Home Loan,Floating,8.4,10.5,60,360,0.5
+2,Personal Loan,Fixed,10.5,18.0,12,60,2.0
+3,Auto Loan,Fixed,8.8,12.5,12,84,1.0
+4,Education Loan,Floating,9.0,12.0,60,180,0.75
+5,Gold Loan,Fixed,7.5,11.0,6,36,0.5
+6,Business Loan,Floating,11.0,16.5,12,120,1.5

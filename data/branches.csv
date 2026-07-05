@@ -1,0 +1,56 @@
+branch_id,branch_name,city,state,zone,branch_type,opened_date
+1,Delhi Branch 1,Delhi,Delhi,North,Metro,2023-07-02
+2,Delhi Branch 2,Delhi,Delhi,North,Semi-Urban,2015-10-28
+3,Delhi Branch 3,Delhi,Delhi,North,Metro,2017-03-08
+4,Delhi Branch 4,Delhi,Delhi,North,Metro,2024-02-25
+5,Chandigarh Branch 1,Chandigarh,Chandigarh,North,Semi-Urban,2023-04-13
+6,Chandigarh Branch 2,Chandigarh,Chandigarh,North,Semi-Urban,2016-02-24
+7,Lucknow Branch 1,Lucknow,Uttar Pradesh,North,Urban,2021-05-31
+8,Lucknow Branch 2,Lucknow,Uttar Pradesh,North,Metro,2018-10-11
+9,Jaipur Branch 1,Jaipur,Rajasthan,North,Metro,2024-01-13
+10,Jaipur Branch 2,Jaipur,Rajasthan,North,Urban,2024-03-09
+11,Bengaluru Branch 1,Bengaluru,Karnataka,South,Urban,2016-03-12
+12,Bengaluru Branch 2,Bengaluru,Karnataka,South,Semi-Urban,2012-12-17
+13,Chennai Branch 1,Chennai,Tamil Nadu,South,Urban,2022-02-13
+14,Chennai Branch 2,Chennai,Tamil Nadu,South,Metro,2021-01-03
+15,Chennai Branch 3,Chennai,Tamil Nadu,South,Urban,2012-12-09
+16,Chennai Branch 4,Chennai,Tamil Nadu,South,Semi-Urban,2015-01-14
+17,Hyderabad Branch 1,Hyderabad,Telangana,South,Semi-Urban,2018-07-07
+18,Hyderabad Branch 2,Hyderabad,Telangana,South,Metro,2017-05-19
+19,Kochi Branch 1,Kochi,Kerala,South,Urban,2019-03-09
+20,Kochi Branch 2,Kochi,Kerala,South,Metro,2018-06-16
+21,Kochi Branch 3,Kochi,Kerala,South,Rural,2012-04-17
+22,Kolkata Branch 1,Kolkata,West Bengal,East,Metro,2015-08-26
+23,Kolkata Branch 2,Kolkata,West Bengal,East,Urban,2021-07-17
+24,Kolkata Branch 3,Kolkata,West Bengal,East,Urban,2011-12-21
+25,Patna Branch 1,Patna,Bihar,East,Urban,2015-10-01
+26,Patna Branch 2,Patna,Bihar,East,Semi-Urban,2021-11-08
+27,Patna Branch 3,Patna,Bihar,East,Semi-Urban,2019-08-23
+28,Bhubaneswar Branch 1,Bhubaneswar,Odisha,East,Metro,2018-10-04
+29,Bhubaneswar Branch 2,Bhubaneswar,Odisha,East,Rural,2023-03-26
+30,Bhubaneswar Branch 3,Bhubaneswar,Odisha,East,Metro,2024-10-17
+31,Bhubaneswar Branch 4,Bhubaneswar,Odisha,East,Metro,2013-05-19
+32,Guwahati Branch 1,Guwahati,Assam,East,Urban,2020-08-12
+33,Guwahati Branch 2,Guwahati,Assam,East,Semi-Urban,2022-05-09
+34,Guwahati Branch 3,Guwahati,Assam,East,Urban,2022-12-24
+35,Guwahati Branch 4,Guwahati,Assam,East,Semi-Urban,2021-04-02
+36,Mumbai Branch 1,Mumbai,Maharashtra,West,Semi-Urban,2015-09-02
+37,Mumbai Branch 2,Mumbai,Maharashtra,West,Semi-Urban,2022-04-24
+38,Pune Branch 1,Pune,Maharashtra,West,Semi-Urban,2019-10-29
+39,Pune Branch 2,Pune,Maharashtra,West,Semi-Urban,2012-08-06
+40,Ahmedabad Branch 1,Ahmedabad,Gujarat,West,Metro,2020-12-04
+41,Ahmedabad Branch 2,Ahmedabad,Gujarat,West,Urban,2024-12-29
+42,Ahmedabad Branch 3,Ahmedabad,Gujarat,West,Urban,2024-11-04
+43,Surat Branch 1,Surat,Gujarat,West,Urban,2012-04-26
+44,Surat Branch 2,Surat,Gujarat,West,Semi-Urban,2024-03-02
+45,Surat Branch 3,Surat,Gujarat,West,Semi-Urban,2025-03-19
+46,Bhopal Branch 1,Bhopal,Madhya Pradesh,Central,Urban,2014-05-10
+47,Bhopal Branch 2,Bhopal,Madhya Pradesh,Central,Urban,2020-09-01
+48,Bhopal Branch 3,Bhopal,Madhya Pradesh,Central,Metro,2023-12-30
+49,Bhopal Branch 4,Bhopal,Madhya Pradesh,Central,Semi-Urban,2021-09-05
+50,Nagpur Branch 1,Nagpur,Maharashtra,Central,Urban,2016-11-20
+51,Nagpur Branch 2,Nagpur,Maharashtra,Central,Metro,2016-10-08
+52,Raipur Branch 1,Raipur,Chhattisgarh,Central,Semi-Urban,2015-03-20
+53,Raipur Branch 2,Raipur,Chhattisgarh,Central,Metro,2018-09-25
+54,Raipur Branch 3,Raipur,Chhattisgarh,Central,Urban,2013-04-15
+55,Raipur Branch 4,Raipur,Chhattisgarh,Central,Semi-Urban,2015-08-18
