@@ -1,7 +1,6 @@
--- ============================================================
 -- Bank Loan & Credit Risk Analytics (India)
--- Business Analysis Queries
--- ============================================================
+-- Analysis Queries
+
 
 -- 1. Overall approval rate by loan product
 SELECT

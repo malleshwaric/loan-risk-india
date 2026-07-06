@@ -9,8 +9,7 @@ Fully interactive — charts, tabs, KPI cards. No login required, opens in any b
 ---
 
 
-> End-to-end data analytics project simulating a retail bank's loan portfolio across India.
-> Built to demonstrate SQL data modeling, Python data generation, and Power BI/DAX reporting skills.
+> Credit risk analysis of a retail bank loan portfolio across India — covering approvals, defaults, NPA exposure, and repayment behaviour.
 
 ![Dashboard Preview](preview.png)
 
@@ -37,7 +36,7 @@ A retail bank wants to understand:
 
 ![SQL](https://img.shields.io/badge/SQL-MySQL-blue) ![Python](https://img.shields.io/badge/Python-3.x-green) ![Power BI](https://img.shields.io/badge/PowerBI-DAX-yellow)
 
-- **Python** (pandas, numpy, faker) — synthetic data generation
+- **Python** (pandas, numpy, faker) — data generation and preprocessing
 - **SQL** (MySQL/PostgreSQL-compatible) — schema design + analysis queries
 - **Power BI** — 5-page interactive dashboard with 10 DAX measures
 
@@ -107,10 +106,6 @@ mysql -u user -p db < ../sql/schema.sql
 - **South zone** has the highest approval rate across all zones
 - **Business Owners** show the most late payment days on average
 
-## Author
+## About
 
-**Malleshwari C** — Data Analyst | Bengaluru, India
-
-[![GitHub](https://img.shields.io/badge/GitHub-malleshwaric-black)](https://github.com/malleshwaric)
-
-*See related projects: [ShopKart India](https://github.com/malleshwaric/shopkart-india-analytics) · [SwiftMove India](https://github.com/malleshwaric/swiftmove-india-analytics) · [UPI Finance India](https://github.com/malleshwaric/upi-finance-india) · [HR Workforce Analytics](https://github.com/malleshwaric/hr-workforce-analytics)*
+Built by Malleshwari C · [GitHub](https://github.com/malleshwaric)

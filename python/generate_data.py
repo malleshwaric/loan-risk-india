@@ -1,14 +1,8 @@
-"""
-Bank Loan & Credit Risk Analytics (India)
-Synthetic Data Generator
+# generate_data.py
+# Generates sample data for the loan risk analysis project.
+# Run: python generate_data.py
+# Requires: pip install faker numpy pandas
 
-Generates realistic, internally-consistent CSV data for:
-branches, loan_products, customers, loan_applications, loan_repayments
-
-Usage:
-    pip install faker numpy pandas
-    python generate_data.py
-"""
 
 import random
 import numpy as np

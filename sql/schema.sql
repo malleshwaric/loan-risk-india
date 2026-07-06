@@ -1,10 +1,6 @@
--- ============================================================
 -- Bank Loan & Credit Risk Analytics (India)
--- Database Schema
--- ============================================================
--- Engine target: MySQL 8.0+ / PostgreSQL 13+ compatible
--- Author: Malleshwari C
--- ============================================================
+-- Schema: MySQL 8.0+ / PostgreSQL 13+
+
 
 DROP TABLE IF EXISTS loan_repayments;
 DROP TABLE IF EXISTS loan_applications;

@@ -1,7 +1,5 @@
 # Power BI & DAX Guide — Bank Loan & Credit Risk Analytics (India)
 
-This guide walks through building the Power BI report on top of the five CSVs in `/data`.
-
 ## 1. Data Model
 
 Import all 5 tables (`branches`, `loan_products`, `customers`, `loan_applications`, `loan_repayments`) and build this star-ish schema:
