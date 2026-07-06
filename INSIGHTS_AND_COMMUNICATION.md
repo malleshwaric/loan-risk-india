@@ -124,29 +124,3 @@ With ₹9.67B disbursed and ₹1.09B in NPA exposure, the bank is carrying an **
 
 ---
 
-## 5. Interview Talking Points
-
-### How to describe this project in an interview
-
-**The 60-second version:**
-> "I did a full credit risk analysis of a retail bank loan portfolio across India — 6,000 customers, 15,000 loan applications, 150,000 repayment records across 55 branches. The data covers the full lending lifecycle from application through disbursal and monthly repayment. I built the SQL schema from scratch, handled all the data prep in Python, and built a 5-page Power BI report across portfolio overview, risk segmentation, repayment behaviour, branch performance, and customer analysis. The headline finding is that High Risk loans default at 19.5% versus 2.3% for Low Risk — and East zone branches carry 26% of total NPA exposure despite having higher approval rates, which points to an underwriting quality issue rather than a market problem."
-
-**Key metrics to memorise:**
-- ₹9.67B total portfolio
-- 62.6% approval rate
-- 7.9% default rate
-- 19.5% High Risk default rate vs 2.3% Low Risk
-- ₹1.09B NPA exposure
-- 79.5% on-time payment rate
-- East zone = 26.1% of total NPA
-
-**Technical questions you might be asked:**
-
-*"How did you structure the credit risk data model?"*
-> "Approval probability is driven by CIBIL score — the relationship is (score - 300) / 600, scaled and clipped to 5–95%. This creates a natural gradient where 750+ scores hit ~85% approval and sub-650 scores drop to ~30%. Risk category is assigned conditionally on score, and default probability is a direct function of risk category. So the key relationships — credit score → risk category → default rate — are internally consistent throughout the dataset."
-
-*"What DAX measures did you use for NPA?"*
-> "NPA Exposure = CALCULATE(SUM(loan_applications[loan_amount_approved]), loan_applications[loan_status] IN {'Defaulted', 'Written-Off'}). I also calculated NPA % as DIVIDE([NPA Exposure], [Total Disbursed Amount], 0), which lets you slice NPA concentration by any dimension — branch, zone, product, risk category."
-
-*"What would you do differently with real bank data?"*
-> "With real data I'd add vintage analysis — tracking default rates by origination month to detect underwriting standard drift over time. I'd also model Loss Given Default (LGD) by including collateral values for secured loans like Home and Gold Loans, which changes the risk picture significantly compared to unsecured Personal Loans."
